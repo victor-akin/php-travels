@@ -102,5 +102,8 @@ $text[30] = 'kuguii';//sets the character at index[30] to 'k' because text is a 
                     //and cannot contain an array then fills places inbetween with empty strings
 echo strlen($text);// returns last index + 1 in this case 30 + 1 
 
+echo "<br>";
 
+$type = PHP_INT_MAX + 1; 
+echo gettype($type);//PHP's auto type castiing will convert the largest integer PHP can hold to double 
 
