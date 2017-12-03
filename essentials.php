@@ -107,3 +107,9 @@ echo "<br>";
 $type = PHP_INT_MAX + 1; 
 echo gettype($type);//PHP's auto type castiing will convert the largest integer PHP can hold to double 
 
+
+
+
+
+
+
